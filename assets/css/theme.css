@@ -2131,11 +2131,11 @@ blockquote cite {
 
 
 .main-slider__subtitle {
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 800;
   text-align: left;
   letter-spacing: .2em;
-  font-style: 'roboto' !important;
+  /* font-style: 'roboto' !important; */
   text-transform: uppercase;
 }
 
@@ -2145,7 +2145,7 @@ blockquote cite {
     font-weight: 800;
     text-align: left;
     letter-spacing: .2em;
-    font-style: 'roboto' !important;
+    /* font-style: 'roboto' !important; */
     text-transform: uppercase;
   }
 }
