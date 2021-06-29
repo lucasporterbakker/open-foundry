@@ -2141,7 +2141,7 @@ blockquote cite {
 
 @media only screen and (max-width: 600px) {
   .main-slider__subtitle {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 800;
     text-align: left;
     letter-spacing: .2em;
@@ -4205,7 +4205,7 @@ blockquote cite {
   height: 2px;
   /* left: 50%; */
   position: absolute;
-  background: blue;
+  background: #ffffff;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -4217,4 +4217,15 @@ blockquote cite {
 	ul {
 		margin-top: 40px;
 	}
+}
+
+.alumni-panel {
+  padding-bottom: 10rem;
+}
+
+/* on mobile */
+@media only screen and (max-width: 600px) {
+  .alumni-panel {
+    padding-bottom: 6rem;
+  }
 }
