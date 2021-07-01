@@ -214,6 +214,7 @@ p + p {
   position: relative;
   z-index: 1;
   display: inline-block;
+  transition-delay: 2.8s;
 }
 
 .b-btn__inner {
@@ -2863,9 +2864,22 @@ blockquote cite {
   top: auto;
   left: 0;
   float: left;
-  font-size: 50px;
-  line-height: 1;
+  font-size: 4.5rem;
+  line-height: 1.6;
 }
+
+/* on mobile */
+@media only screen and (max-width: 600px) {
+  .b-title-page__wrap .typed-cursor {
+    position: relative;
+    top: auto;
+    left: 0;
+    float: left;
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+}
+
 
 /* ======= TYPOGRAPHY ======= */
 .typography-section {
@@ -3274,7 +3288,7 @@ blockquote cite {
   font-size: 30px;
 }
 
-.loader01 {
+/* .loader01 {
   width: 56px;
   height: 56px;
   border: 8px solid #0052ec;
@@ -4000,7 +4014,7 @@ blockquote cite {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}
+} */
 
 .section-sidebar {
   margin-bottom: 77px;
