@@ -859,6 +859,16 @@ blockquote cite {
   padding-top: 102px;
 }
 
+.section-default-videos {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 107px;
+}
+
+.section-default-videos_w-title {
+  padding-top: 102px;
+}
+
 .section-sm {
   margin-bottom: 57px;
 }
@@ -4224,6 +4234,38 @@ blockquote cite {
   width: 0;
 }
 .view-more a:hover:after {
+  width: 100%;
+  left: 0;
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
+
+.view-more-videos a {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  padding-top: 25px;
+  position: relative;
+}
+.view-more-videos a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: #68A6F8;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.view-more-videos a:hover:after {
   width: 100%;
   left: 0;
 }
