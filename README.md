@@ -1,2 +1,1 @@
 # arweave-academy
-# arweave-academy
