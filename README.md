@@ -1,1 +1,1 @@
-# open-foundry
+# arweave-academy
